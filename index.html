@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="main-html">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">  <!--  bootstrap styled website to be responsive on mobile -->
         <title>Zen of Python</title>
@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
         <link rel="stylesheet" type="text/css"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://use.fontawesome.com/b02e3ddb3a.js"></script>
-        <link rel="stylesheet" type="text/css"  href="zenapp.css">
+        <link rel="stylesheet" type="text/css"  href="zen.css">
         <script id="zen_json" type="application/json">
         [
           {"zen": "Beautiful is better than ugly"
@@ -78,7 +78,7 @@
         
     </head>
 
-    <body id="Body"  background="">
+    <body class="main-body" id="body"  background="">
         <nav class="navbar navbar-default">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -94,11 +94,6 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                
-                
-              </ul>
- 
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="mailto:sokolovdp@gmail.com">Developer <i class="fa fa-handshake-o" aria-hidden="true"></i></a></li>
               </ul>
@@ -110,15 +105,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                <div id="content">
-                    <div id="divH3">
-                        <h3 id="H3">Zen of the Day:</h3>
-                    </div>
-                    <hr>
-                    <div id="divH1">
-                        <h1 id="H1"></h1>
-                    </div>
-                </div>
+                    <h3 class="zen-day">Zen of the Day:</h3>
+                    <hr class="zen-line">
+                    <h1 class="zen-phrase" id="h1"></h1>
                 </div>
             </div>
         </div>
