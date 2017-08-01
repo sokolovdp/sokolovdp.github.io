@@ -29,6 +29,14 @@ function replaceTitle(text) {
     title.textContent = text;
 }
 
+
+function replaceMySite(newText, url) {
+    var navBar = document.querySelector("#site-reference");
+    navBar.textContent = newText;
+    navBar.href = url;
+}
+
+
 function makeMainPage() {
     
 	var contentArray = getJsonData("contentJson");
@@ -36,8 +44,9 @@ function makeMainPage() {
 	var phraseOfDay = contentArray[textIndex].msg;
 	var imageOfDay = "static/" + contentArray[textIndex].pic;
 	
-    replaceTitle("Котики");
-    replaceDayTitle("Котик дня:");
+    replaceTitle("Zen of Python");
+    replaceDayTitle("Zen of Day");
+    replaceMySite("My Blog", "http://www.sokolovdp.info");
     replacePhrase(phraseOfDay);
 	replaceBodyBackGroundImage(imageOfDay);
 }
