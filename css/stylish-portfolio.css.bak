@@ -39,6 +39,7 @@ html, body {
 }
 
 /* Custom Button Styles */
+
 .btn-dark {
     border-radius: 0;
     color: #fff;
@@ -80,16 +81,6 @@ hr.small {
     margin-right: -250px;
     overflow-y: auto;
     background: #222;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
@@ -148,6 +139,16 @@ hr.small {
     position: fixed;
     top: 0;
     right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 250px;
+    width: 250px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 
 .toggle {
@@ -226,6 +227,7 @@ img, #map {
         height: 75%;
     }
 }
+
  
 #footer {
     padding: 20px 0;

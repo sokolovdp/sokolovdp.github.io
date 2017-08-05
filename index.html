@@ -6,7 +6,7 @@
     <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
     
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700">
     
     <link rel="stylesheet" type="text/css" href="css/stylish-portfolio.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" >
@@ -42,8 +42,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <div style="margin: 0; padding: 0; font-size: 4.5em; font-weight: 700;">Твой Дом</div>
-            <div style="margin-top: 20;margin-bottom: 10;font-weight: 500; font-size: 24">Агентство недвижимости</div>
+            <div class="company-title">Твой Дом</div>
+            <div "company-profile">Агентство недвижимости</div>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Узнать больше >></a>
         </div>
@@ -55,14 +55,17 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Квартира вашей мечты!</h2>
-                    <p class="lead">Дом там, где сердце. Мы поможем вам и вашей компании найти место, где вы будете чувствовать себя дома.<br>Покупка или продажа — мы то, что вам нужно.</p>
+                    <p class="lead">
+                        Дом там, где сердце. Мы поможем вам и вашей компании найти место, где вы будете чувствовать себя дома.
+                        <br>
+                        Покупка или продажа — мы то, что вам нужно.
+                    </p>
                 </div>
             </div> 
         </div> 
     </div>
 
     <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <div id="services" class="services bg-primary">
         <div class="container">
             <div class="row text-center">
@@ -91,7 +94,9 @@
                                 <h4>
                                     <strong>Договора</strong>
                                 </h4>
-                                <p>Составление договоров, подготовка пакета документов к гос.регистрации, комфортное сопровождение сделок</p>
+                                <p>
+                                    Составление договоров, подготовка пакета документов к гос.регистрации, комфортное сопровождение сделок
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -103,8 +108,9 @@
                                 <h4>
                                     <strong>Консультации</strong>
                                 </h4>
-                                <p>Всегда бесплатное консультирование по телефону +7 (999) 999-99-99
-                                 ведущим специалистом</p>
+                                <p>
+                                    Всегда бесплатное консультирование по телефону +7 (999) 999-99-99 ведущим специалистом
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -130,15 +136,15 @@
    <div class="container">
         <div class="col-lg-12">
             <div id="map"></div>
-            <div class="row text-center" style="font-size: 30; margin-top: 40; margin-bottom: 20;">Наш офис</div>
-            <img src="img/office_place.jpg" width="600" alt="400" class="img-rounded center-block">
+            <div class="row text-center company-office">Наш офис</div>
+            <img src="img/office_place_resized.jpg" class="img-rounded center-block">
         </div>
     </div>
 
     <!-- Footer -->
     <div class="container" id="footer">
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1 text-center" id="contacts">
+        <div  id="contacts" class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
                 <h4><strong>Твой Дом</strong></h4>
                 <p>г. Москва<br>Старомонетный переулок, 10</p>
                 <ul class="list-unstyled">
